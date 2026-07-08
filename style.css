@@ -1,20 +1,20 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  color: #1f2937;
+  color: #1e293b;
   background-color: #f8fafc;
   line-height: 1.6;
 }
 
 header {
-  background: #0f172a;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
   color: white;
-  padding: 80px 10%;
+  padding: 90px 10%;
   text-align: center;
 }
 
 header h1 {
-  font-size: 42px;
+  font-size: 44px;
   margin-bottom: 10px;
 }
 
@@ -33,38 +33,88 @@ header p {
 header a {
   display: inline-block;
   margin-top: 20px;
-  padding: 12px 24px;
+  padding: 14px 28px;
   background: #2563eb;
   color: white;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 10px;
   font-weight: bold;
 }
 
+header a:hover {
+  background: #d4a017;
+  color: #0f172a;
+}
+
 section {
-  padding: 60px 10%;
+  padding: 70px 10%;
   max-width: 1100px;
   margin: auto;
 }
 
 section h2 {
-  font-size: 30px;
+  font-size: 32px;
   color: #0f172a;
   margin-bottom: 20px;
 }
 
-#what-i-do h3,
-#projects h3 {
-  color: #2563eb;
+#intro h2 {
+  max-width: 900px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
   margin-top: 30px;
 }
 
-#what-i-do,
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.08);
+  border-top: 4px solid #d4a017;
+}
+
+.card h3 {
+  color: #0f172a;
+  margin-top: 0;
+}
+
+.card p {
+  color: #475569;
+}
+
 #projects {
   background: white;
-  margin-top: 30px;
-  border-radius: 16px;
+  max-width: none;
+}
+
+.project-card {
+  max-width: 900px;
+  background: #f8fafc;
+  padding: 30px;
+  border-radius: 18px;
+  margin: 25px auto;
   box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+}
+
+.project-card h3 {
+  color: #2563eb;
+}
+
+#beyond {
+  background: #e2e8f0;
+  max-width: none;
+  text-align: center;
+}
+
+#beyond p {
+  max-width: 850px;
+  margin: auto;
+  font-size: 20px;
+  font-style: italic;
 }
 
 #contact {
@@ -76,4 +126,18 @@ section h2 {
 
 #contact h2 {
   color: white;
+}
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  header h1 {
+    font-size: 34px;
+  }
+
+  section {
+    padding: 50px 7%;
+  }
 }

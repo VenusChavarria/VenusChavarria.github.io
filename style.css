@@ -828,3 +828,73 @@ section h2 {
     font-size: 18px;
   }
 }
+
+/* Project section spacing refinements */
+
+.executive-summary {
+  padding-top: 52px;
+  padding-bottom: 42px;
+}
+
+.business-objective {
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+.kpi-summary {
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
+
+.interactive-report {
+  padding-top: 54px;
+  padding-bottom: 54px;
+}
+
+.revenue-performance,
+.profitability-performance,
+.business-drivers {
+  padding-top: 52px;
+  padding-bottom: 58px;
+}
+
+.recommendations-section {
+  padding-top: 52px;
+  padding-bottom: 48px;
+}
+
+.behind-analysis {
+  padding-top: 48px;
+  padding-bottom: 50px;
+}
+
+.skills-section {
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+
+.power-bi-preview {
+  margin-bottom: 22px;
+}
+
+.power-bi-button {
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.analysis-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.analysis-card .project-visual {
+  margin-bottom: 0;
+}
+
+.financial-model-card img {
+  max-height: 530px;
+}
+
+.skills-section .skill-badges {
+  gap: 8px;
+}

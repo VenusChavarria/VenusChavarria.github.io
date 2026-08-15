@@ -353,6 +353,63 @@ section h2 {
   font-size: 13px;
 }
 
+/* =========================================================
+   PROJECT QUICK NAVIGATION
+========================================================= */
+
+.quick-nav-section {
+  max-width: none;
+  padding: 16px 8%;
+  border-bottom: 1px solid #e2e8f0;
+  background: #ffffff;
+}
+
+.quick-nav {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.quick-nav-label {
+  flex: 0 0 auto;
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+
+.quick-nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+}
+
+.quick-nav-links a {
+  color: #334155;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.quick-nav-links a:hover {
+  color: #2563eb;
+  transform: translateY(-1px);
+}
+
+#overview,
+#interactive-power-bi,
+#performance-analysis,
+#business-drivers,
+#insights-recommendations,
+#behind-analysis {
+  scroll-margin-top: 20px;
+}
 
 /* =========================================================
    PROJECT PAGE GENERAL SECTIONS
@@ -783,6 +840,23 @@ section h2 {
   }
 }
 
+.quick-nav-section {
+  padding: 14px 6%;
+}
+
+.quick-nav {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.quick-nav-links {
+  gap: 7px 16px;
+}
+
+.quick-nav-links a {
+  font-size: 13px;
+}
 
 /* =========================================================
    RESPONSIVE: SMALL MOBILE DEVICES
@@ -877,6 +951,10 @@ section h2 {
   margin-bottom: 22px;
 }
 
+.power-bi-preview img {
+  border: 1px solid #e2e8f0;
+}
+
 .power-bi-button {
   display: inline-block;
   margin-top: 4px;
@@ -897,4 +975,12 @@ section h2 {
 
 .skills-section .skill-badges {
   gap: 8px;
+}
+
+.quick-nav-links {
+  gap: 6px 13px;
+}
+
+.quick-nav-links a {
+  font-size: 12px;
 }

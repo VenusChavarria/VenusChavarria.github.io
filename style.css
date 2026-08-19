@@ -1691,3 +1691,83 @@ section h2 {
     font-size: 12px;
   }
 }
+
+/* =========================
+   PROJECT 1 - FINAL MICRO ADJUSTMENTS
+========================= */
+
+/* Business Objective */
+.business-objective {
+  padding-left: 34px;
+  padding-right: 34px;
+}
+
+/* Quarterly visuals - desktop */
+.quarterly-visual {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* Executive Insights */
+.executive-insights {
+  gap: 12px;
+}
+
+.executive-insights article {
+  padding: 16px 19px;
+}
+
+.executive-insights article h3 {
+  margin-top: 0;
+  margin-bottom: 7px;
+}
+
+/* Skills */
+.skills-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.skills-section .skill-badges {
+  margin-top: 14px;
+  gap: 7px;
+}
+
+@media (max-width: 520px) {
+
+  /* Business Objective */
+  .business-objective {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  /* Quarterly charts slightly less dominant */
+  .quarterly-visual {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Executive Insights tighter */
+  .executive-insights {
+    gap: 10px;
+  }
+
+  .executive-insights article {
+    padding: 15px 18px;
+  }
+
+  .executive-insights article h3 {
+    margin-bottom: 7px;
+  }
+
+  /* Skills */
+  .skills-section {
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+
+  .skills-section .skill-badges {
+    margin-top: 12px;
+  }
+}

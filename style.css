@@ -989,3 +989,705 @@ section h2 {
 .quick-nav-links a {
   font-size: 12px;
 }
+
+/* =========================================================
+   PROJECT 1 - FINAL POLISH
+   Desktop + General
+========================================================= */
+
+/* ---------- Shared horizontal alignment ---------- */
+
+.project-hero-inner,
+.quick-nav {
+  width: min(1000px, 84%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-hero {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 48px;
+  padding-bottom: 52px;
+}
+
+.project-section:not(.dark-section) {
+  width: min(1000px, 84%);
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+/* ---------- Hero tags: badges, not navigation ---------- */
+
+.project-tags {
+  gap: 7px;
+}
+
+.project-tags span {
+  padding: 5px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.04);
+  font-size: 12px;
+}
+
+
+/* ---------- Quick Navigation ---------- */
+
+.quick-nav-section {
+  max-width: none;
+  padding: 14px 0;
+  border-bottom: 1px solid #e2e8f0;
+  background: #ffffff;
+}
+
+.quick-nav {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.quick-nav-label {
+  flex: 0 0 auto;
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.quick-nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.quick-nav-links a {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #334155;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.25;
+  text-decoration: none;
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease,
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.quick-nav-links a:hover {
+  border-color: #2563eb;
+  background: #eff6ff;
+  color: #2563eb;
+  transform: translateY(-1px);
+}
+
+
+/* ---------- Return to Quick Navigation ---------- */
+
+.back-to-nav {
+  display: inline-block;
+  margin-top: 18px;
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.back-to-nav:hover {
+  color: #2563eb;
+}
+
+
+/* ---------- Smooth anchor positioning ---------- */
+
+#overview,
+#interactive-power-bi,
+#performance-analysis,
+#business-drivers,
+#insights-recommendations,
+#behind-analysis,
+#quick-navigation {
+  scroll-margin-top: 20px;
+}
+
+
+/* ---------- Overall section rhythm ---------- */
+
+.executive-summary {
+  padding-top: 42px;
+  padding-bottom: 32px;
+}
+
+.business-objective {
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+.kpi-summary {
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+.interactive-report {
+  padding-top: 40px;
+  padding-bottom: 44px;
+}
+
+.revenue-performance,
+.profitability-performance {
+  padding-top: 42px;
+  padding-bottom: 46px;
+}
+
+.business-drivers {
+  padding-top: 42px;
+  padding-bottom: 46px;
+}
+
+.recommendations-section {
+  padding-top: 42px;
+  padding-bottom: 40px;
+}
+
+.behind-analysis {
+  padding-top: 40px;
+  padding-bottom: 42px;
+}
+
+.skills-section {
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+
+
+/* ---------- Main paragraph rhythm ---------- */
+
+.project-section > p {
+  line-height: 1.6;
+}
+
+.executive-summary > p {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.behind-analysis > p {
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+
+/* ---------- KPI Summary: more compact ---------- */
+
+.kpi-grid {
+  gap: 16px;
+}
+
+.kpi-card {
+  padding: 21px 20px;
+}
+
+.kpi-card h3 {
+  margin-bottom: 9px;
+}
+
+.kpi-value {
+  margin-bottom: 6px;
+  font-size: 28px;
+}
+
+.kpi-growth,
+.kpi-budget,
+.kpi-detail {
+  margin: 3px 0;
+}
+
+
+/* ---------- Captions: one consistent alignment ---------- */
+
+.project-page .project-visual figcaption {
+  max-width: none;
+  margin: 10px 0 0;
+  text-align: left;
+  line-height: 1.45;
+}
+
+
+/* ---------- Power BI ---------- */
+
+.power-bi-preview {
+  margin-top: 20px;
+  margin-bottom: 17px;
+}
+
+.power-bi-preview img {
+  border: 1px solid #e2e8f0;
+}
+
+.power-bi-button {
+  margin-top: 4px;
+}
+
+
+/* ---------- Revenue + Profitability chart balance ---------- */
+
+.revenue-performance .visual-grid,
+.profitability-performance .visual-grid {
+  gap: 24px;
+  align-items: start;
+}
+
+.revenue-performance .visual-grid .project-visual img,
+.profitability-performance .visual-grid .project-visual img {
+  width: 100%;
+  height: 275px;
+  object-fit: contain;
+}
+
+.revenue-performance .visual-grid,
+.profitability-performance .visual-grid {
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+
+/* ---------- Insight cards ---------- */
+
+.insight-grid {
+  gap: 20px;
+}
+
+.insight-card {
+  padding: 22px 24px;
+}
+
+.insight-card h3 {
+  margin-bottom: 10px;
+}
+
+.insight-card p {
+  margin-bottom: 0;
+}
+
+
+/* ---------- Key Business Drivers ---------- */
+
+.business-driver-grid {
+  gap: 20px;
+}
+
+.business-drivers .driver-card {
+  padding: 22px;
+}
+
+.business-drivers .driver-card h3 {
+  margin-bottom: 10px;
+}
+
+.business-drivers .compact-visual {
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+
+.business-drivers .compact-visual img {
+  width: 100%;
+  height: 225px;
+  object-fit: contain;
+}
+
+
+/* ---------- Executive Insights ---------- */
+
+.dark-section {
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+.dark-section h2 {
+  margin-bottom: 20px;
+}
+
+.executive-insights {
+  gap: 16px;
+}
+
+.executive-insights article {
+  padding: 18px 21px;
+}
+
+.executive-insights article h3 {
+  margin-bottom: 9px;
+}
+
+.executive-insights article p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+/* ---------- Strategic Recommendations ---------- */
+
+.recommendation-list {
+  gap: 10px;
+}
+
+.recommendation-list article {
+  grid-template-columns: 46px 1fr;
+  gap: 12px;
+  padding: 14px 18px;
+}
+
+.recommendation-list span {
+  font-size: 20px;
+}
+
+
+/* ---------- Behind the Analysis ---------- */
+
+.analysis-grid {
+  align-items: stretch;
+  gap: 20px;
+}
+
+.analysis-card {
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+}
+
+.analysis-card h3 {
+  margin-bottom: 10px;
+}
+
+.analysis-card .project-visual {
+  margin-top: 10px;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.analysis-card .project-visual img {
+  width: 100%;
+  height: 205px;
+  max-height: none;
+  object-fit: contain;
+}
+
+.financial-model-card img {
+  max-height: none;
+}
+
+
+/* ---------- Skills: technical badges, not buttons ---------- */
+
+.skills-section .skill-badges {
+  gap: 7px;
+}
+
+.skills-section .skill-badges span {
+  padding: 7px 11px;
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.72);
+  font-size: 13px;
+}
+
+/* =========================================================
+   PROJECT 1 - FINAL MOBILE POLISH
+========================================================= */
+
+@media (max-width: 520px) {
+
+  /* ---------- Navigation ---------- */
+
+  .navbar {
+    padding: 14px 5%;
+    align-items: flex-start;
+  }
+
+  .brand {
+    font-size: 18px;
+  }
+
+  .nav-links {
+    gap: 10px;
+    justify-content: flex-end;
+  }
+
+
+  /* ---------- Shared mobile width ---------- */
+
+  .project-hero-inner,
+  .quick-nav,
+  .project-section:not(.dark-section) {
+    width: auto;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
+
+  /* ---------- Hero ---------- */
+
+  .project-hero {
+    padding-top: 34px;
+    padding-bottom: 38px;
+  }
+
+  .project-hero h1 {
+    font-size: 36px;
+    margin-bottom: 14px;
+  }
+
+  .project-subtitle {
+    margin-bottom: 18px;
+  }
+
+  .project-tags {
+    gap: 6px;
+  }
+
+  .project-tags span {
+    padding: 5px 9px;
+    border-radius: 7px;
+    font-size: 11px;
+  }
+
+
+  /* ---------- Quick Navigation ---------- */
+
+  .quick-nav-section {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .quick-nav {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .quick-nav-links {
+    gap: 7px;
+  }
+
+  .quick-nav-links a {
+    padding: 7px 9px;
+    border-radius: 8px;
+    font-size: 11px;
+  }
+
+
+  /* ---------- Section rhythm ---------- */
+
+  .executive-summary {
+    padding-top: 34px;
+    padding-bottom: 26px;
+  }
+
+  .business-objective {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .kpi-summary {
+    padding-top: 34px;
+    padding-bottom: 30px;
+  }
+
+  .interactive-report {
+    padding-top: 30px;
+    padding-bottom: 36px;
+  }
+
+  .revenue-performance,
+  .profitability-performance,
+  .business-drivers {
+    padding-top: 32px;
+    padding-bottom: 36px;
+  }
+
+  .dark-section {
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+
+  .recommendations-section {
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+
+  .behind-analysis {
+    padding-top: 32px;
+    padding-bottom: 34px;
+  }
+
+  .skills-section {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+
+  /* ---------- KPI cards ---------- */
+
+  .kpi-grid {
+    gap: 13px;
+  }
+
+  .kpi-card {
+    padding: 18px 20px;
+  }
+
+  .kpi-value {
+    font-size: 26px;
+  }
+
+
+  /* ---------- Power BI ---------- */
+
+  .power-bi-preview {
+    margin-top: 17px;
+    margin-bottom: 14px;
+  }
+
+
+  /* ---------- All chart captions ---------- */
+
+  .project-page .project-visual figcaption {
+    margin-top: 8px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 1.45;
+  }
+
+
+  /* ---------- Revenue / Profitability ---------- */
+
+  .revenue-performance .visual-grid,
+  .profitability-performance .visual-grid {
+    gap: 22px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+  }
+
+  .revenue-performance .visual-grid .project-visual img,
+  .profitability-performance .visual-grid .project-visual img {
+    height: auto;
+  }
+
+  .insight-grid {
+    gap: 13px;
+  }
+
+  .insight-card {
+    padding: 18px 20px;
+  }
+
+
+  /* ---------- Business Drivers ---------- */
+
+  .business-driver-grid {
+    gap: 14px;
+  }
+
+  .business-drivers .driver-card {
+    padding: 19px;
+  }
+
+  .business-drivers .compact-visual img {
+    height: auto;
+  }
+
+  .business-drivers .compact-visual {
+    margin-top: 10px;
+  }
+
+
+  /* ---------- Executive Insights ---------- */
+
+  .executive-insights {
+    gap: 13px;
+  }
+
+  .executive-insights article {
+    padding: 17px 19px;
+  }
+
+  .dark-section h2 {
+    margin-bottom: 16px;
+  }
+
+
+  /* ---------- Recommendations ---------- */
+
+  .recommendation-list {
+    gap: 9px;
+  }
+
+  .recommendation-list article {
+    grid-template-columns: 36px 1fr;
+    gap: 9px;
+    padding: 14px 15px;
+  }
+
+  .recommendation-list span {
+    font-size: 18px;
+  }
+
+
+  /* ---------- Behind the Analysis ---------- */
+
+  .behind-analysis > p {
+    line-height: 1.55;
+    margin-bottom: 18px;
+  }
+
+  .analysis-grid {
+    gap: 14px;
+  }
+
+  .analysis-card {
+    padding: 19px;
+  }
+
+  .analysis-card h3 {
+    margin-bottom: 8px;
+  }
+
+  .analysis-card .project-visual {
+    margin-top: 8px;
+  }
+
+  .analysis-card .project-visual img {
+    height: auto;
+  }
+
+
+  /* ---------- Skills ---------- */
+
+  .skills-section .skill-badges {
+    gap: 6px;
+  }
+
+  .skills-section .skill-badges span {
+    padding: 7px 9px;
+    border-radius: 9px;
+    font-size: 11px;
+  }
+
+
+  /* ---------- Back to Quick Navigation ---------- */
+
+  .back-to-nav {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+}

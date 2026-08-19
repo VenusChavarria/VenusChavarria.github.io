@@ -1771,3 +1771,88 @@ section h2 {
     margin-top: 12px;
   }
 }
+
+/* =========================
+   HOME - FINAL POLISH
+========================= */
+
+.home-hero {
+  padding-top: 58px;
+  padding-bottom: 52px;
+}
+
+#intro {
+  padding-top: 38px;
+  padding-bottom: 24px;
+}
+
+#intro h2 {
+  margin-bottom: 14px;
+}
+
+#whatido {
+  padding-top: 26px;
+  padding-bottom: 42px;
+}
+
+#projects {
+  padding-top: 38px;
+  padding-bottom: 44px;
+}
+
+#projects > h2 {
+  max-width: 900px;
+  width: auto;
+  margin: 0 auto 18px;
+}
+
+#beyond {
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+
+#contact {
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+
+@media (max-width: 520px) {
+
+  .home-hero {
+    padding-top: 42px;
+    padding-bottom: 38px;
+  }
+
+  #intro {
+    padding-top: 30px;
+    padding-bottom: 18px;
+  }
+
+  #intro h2 {
+    margin-bottom: 12px;
+  }
+
+  #whatido {
+    padding-top: 20px;
+    padding-bottom: 34px;
+  }
+
+  #projects {
+    padding-top: 28px;
+    padding-bottom: 36px;
+  }
+
+  #projects > h2 {
+    margin-bottom: 16px;
+  }
+
+  #beyond {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+
+  #contact {
+    padding-top: 38px;
+    padding-bottom: 38px;
+  }
+}

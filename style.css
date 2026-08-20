@@ -2115,13 +2115,13 @@ section h2 {
   }
 
   .business-objective h2,
-  .business-objective h3 {
+.business-objective h3 {
     width: 100%;
     align-self: flex-start;
-    margin: 0 0 0.55rem 0 !important;
+    margin: -6px 0 0.55rem 0 !important;
     padding: 0;
     text-align: left !important;
-  }
+}
 
   .business-objective p {
     width: 100%;

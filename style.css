@@ -1856,3 +1856,57 @@ section h2 {
     padding-bottom: 38px;
   }
 }
+
+/* =========================================================
+   FINAL PROJECT 1 REFINEMENTS
+========================================================= */
+
+/* Business Objective - internal breathing room */
+.business-objective {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+@media (max-width: 850px) {
+  .business-objective {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+}
+
+.skills-section {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.skills-section .skill-badges {
+  margin-top: 8px;
+}
+
+@media (max-width: 850px) {
+  .skills-section {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .skills-section .skill-badges {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 850px) {
+
+  /* Monthly charts retain primary visual weight */
+  .revenue-performance .visual-grid .project-visual:first-child,
+  .profitability-performance .visual-grid .project-visual:first-child {
+    width: 100%;
+  }
+
+  /* Quarterly charts slightly smaller on mobile */
+  .revenue-performance .visual-grid .project-visual:nth-child(2),
+  .profitability-performance .visual-grid .project-visual:nth-child(2) {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

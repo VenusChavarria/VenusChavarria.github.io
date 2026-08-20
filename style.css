@@ -1912,3 +1912,53 @@ section h2 {
     margin-right: auto;
   }
 }
+@media (max-width: 850px) {
+
+  .business-objective {
+    width: calc(100% - 32px);
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 30px 22px 26px !important;
+    box-sizing: border-box;
+  }
+
+}
+@media (max-width: 850px) {
+
+  .revenue-performance .visual-grid .project-visual:nth-child(2),
+  .profitability-performance .visual-grid .project-visual:nth-child(2) {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .revenue-performance .visual-grid .project-visual:nth-child(2) img,
+  .profitability-performance .visual-grid .project-visual:nth-child(2) img {
+    width: auto;
+    max-width: 92%;
+    max-height: 310px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+@media (max-width: 850px) {
+
+  .skills-section {
+    width: calc(100% - 32px);
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 28px 18px 26px !important;
+    box-sizing: border-box;
+  }
+
+  .skills-section .skill-badges {
+    margin-top: 10px;
+  }
+
+}
+

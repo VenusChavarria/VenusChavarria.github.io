@@ -2109,7 +2109,8 @@ section h2 {
 
   /* Business Objective - compact + left aligned */
   .business-objective {
-    padding: 0.8rem 1.35rem 0.75rem;
+    align-items: flex-start;
+    padding: 0.6rem 1.35rem 0.65rem;
     text-align: left;
   }
 
@@ -2123,7 +2124,7 @@ section h2 {
   .business-objective p {
     margin: 0;
     text-align: left;
-    line-height: 1.6;
+    line-height: 1.5;
   }
 
 
@@ -2140,7 +2141,7 @@ section h2 {
   .visual-grid
   .project-visual:nth-child(2) img {
     width: 100%;
-    max-height: 220px;
+    max-height: 210px;
     object-fit: contain;
   }
 
@@ -2150,14 +2151,14 @@ section h2 {
   .visual-grid
   .project-visual:nth-child(2) img {
     width: 100%;
-    max-height: 225px;
+    max-height: 215px;
     object-fit: contain;
   }
 
 
   /* Skills - reduce excess space at top */
   .skills-section {
-    padding-top: 0.5rem;
+    padding-top: 0.3rem;
     padding-bottom: 1.2rem;
   }
 

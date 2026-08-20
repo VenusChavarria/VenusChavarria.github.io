@@ -1862,15 +1862,17 @@ section h2 {
 ========================================================= */
 
 /* Business Objective - internal breathing room */
-.business-objective {
-  padding-left: 7%;
-  padding-right: 7%;
+.business-objective h2,
+.business-objective > p {
+  margin-left: 18px;
+  margin-right: 18px;
 }
 
 @media (max-width: 850px) {
-  .business-objective {
-    padding-left: 7%;
-    padding-right: 7%;
+  .business-objective h2,
+  .business-objective > p {
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
 
@@ -1905,7 +1907,7 @@ section h2 {
   /* Quarterly charts slightly smaller on mobile */
   .revenue-performance .visual-grid .project-visual:nth-child(2),
   .profitability-performance .visual-grid .project-visual:nth-child(2) {
-    width: 92%;
+    width: 87%;
     margin-left: auto;
     margin-right: auto;
   }

@@ -2051,7 +2051,7 @@ section h2 {
   .visual-grid
   .project-visual:nth-child(2) img {
     width: 100%;
-    max-height: 235px;
+    max-height: 230px;
     object-fit: contain;
     display: block;
     margin: 0 auto;
@@ -2074,7 +2074,7 @@ section h2 {
   .visual-grid
   .project-visual:nth-child(2) img {
     width: 100%;
-    max-height: 245px;
+    max-height: 240px;
     object-fit: contain;
     display: block;
     margin: 0 auto;
@@ -2097,6 +2097,76 @@ section h2 {
 
   .skills-section .skill-badges {
     margin-top: 0.5rem;
+  }
+
+}
+
+/* =====================================================
+   FINAL MOBILE MICRO-ADJUSTMENTS
+   ===================================================== */
+
+@media (max-width: 850px) {
+
+  /* Business Objective - compact + left aligned */
+  .business-objective {
+    padding: 1.05rem 1.35rem 0.9rem;
+    text-align: left;
+  }
+
+  .business-objective h2,
+  .business-objective h3 {
+    margin-top: 0;
+    margin-bottom: 0.65rem;
+    text-align: left;
+  }
+
+  .business-objective p {
+    margin: 0;
+    text-align: left;
+    line-height: 1.6;
+  }
+
+
+  /* Power BI preview - slightly stronger visual presence */
+  .interactive-analysis .project-visual img {
+    width: 104%;
+    max-width: none;
+    margin-left: -2%;
+    height: auto;
+  }
+
+
+  /* Quarterly Revenue - final height adjustment */
+  .revenue-performance
+  .visual-grid
+  .project-visual:nth-child(2) img {
+    width: 100%;
+    max-height: 230px;
+    object-fit: contain;
+  }
+
+
+  /* Quarterly Profitability - final height adjustment */
+  .profitability-performance
+  .visual-grid
+  .project-visual:nth-child(2) img {
+    width: 100%;
+    max-height: 240px;
+    object-fit: contain;
+  }
+
+
+  /* Skills - reduce excess space at top */
+  .skills-section {
+    padding-top: 1rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .skills-section h2,
+  .skills-section h3 {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    text-align: left;
   }
 
 }

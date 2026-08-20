@@ -166,12 +166,14 @@ section h2 {
 }
 
 #projects > h2 {
-  width: min(1100px, 80%);
+  max-width: 900px;
+  width: calc(100% - 40px);
   margin: 0 auto 16px;
 }
 
 .project-card {
   max-width: 900px;
+  width: calc(100% - 40px);
   margin: 18px auto;
   padding: 28px 30px;
   border-radius: 18px;
@@ -219,6 +221,25 @@ section h2 {
   color: #475569;
   font-size: 12px;
   font-weight: 700;
+}
+
+@media (max-width: 850px) {
+
+  #projects {
+    padding-top: 42px;
+    padding-bottom: 48px;
+  }
+
+  #projects > h2 {
+    width: calc(100% - 48px);
+    margin: 0 auto 18px;
+  }
+
+  .project-card {
+    width: calc(100% - 48px);
+    margin: 18px auto;
+    padding: 24px 22px;
+  }
 }
 
 

@@ -2167,15 +2167,16 @@ section h2 {
     padding-bottom: 1.2rem;
   }
 
-  .skills-section h2,
-  .skills-section h3 {
-    margin-top: 0;
-    margin-bottom: 0.8rem;
-    text-align: left;
-  }
+  .skills-section h2 {
+  margin-top: -6px;
+  margin-bottom: 0.8rem;
+  text-align: left;
+}
 
-.skills-section {
-  transform: translateY(-8px);
+.skills-section h3 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  text-align: left;
 }
 
 }

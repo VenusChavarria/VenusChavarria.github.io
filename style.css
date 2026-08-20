@@ -1961,4 +1961,142 @@ section h2 {
   }
 
 }
+/* =====================================================
+   FINAL MOBILE REFINEMENTS - PROJECT 1
+   ===================================================== */
 
+@media (max-width: 850px) {
+
+  /* ---------------------------------
+     BUSINESS OBJECTIVE
+     --------------------------------- */
+  .business-objective {
+    padding: 1.35rem 1.15rem 1rem;
+  }
+
+  .business-objective h2,
+  .business-objective h3 {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+  }
+
+  .business-objective p {
+    margin: 0;
+    line-height: 1.65;
+    max-width: 100%;
+  }
+
+
+  /* ---------------------------------
+     INTERACTIVE POWER BI
+     More visual presence on mobile
+     --------------------------------- */
+  .interactive-analysis .project-visual {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .interactive-analysis .project-visual img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  /* ---------------------------------
+     MONTHLY CHARTS
+     Keep them as primary visuals
+     --------------------------------- */
+  .revenue-performance
+  .visual-grid
+  .project-visual:first-child,
+
+  .profitability-performance
+  .visual-grid
+  .project-visual:first-child {
+    width: 100%;
+  }
+
+  .revenue-performance
+  .visual-grid
+  .project-visual:first-child img,
+
+  .profitability-performance
+  .visual-grid
+  .project-visual:first-child img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  /* ---------------------------------
+     QUARTERLY REVENUE
+     Reduce height/protagonism
+     --------------------------------- */
+  .revenue-performance
+  .visual-grid
+  .project-visual:nth-child(2) {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .revenue-performance
+  .visual-grid
+  .project-visual:nth-child(2) img {
+    width: 100%;
+    max-height: 235px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  /* ---------------------------------
+     QUARTERLY PROFITABILITY
+     Slightly less reduction
+     --------------------------------- */
+  .profitability-performance
+  .visual-grid
+  .project-visual:nth-child(2) {
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .profitability-performance
+  .visual-grid
+  .project-visual:nth-child(2) img {
+    width: 100%;
+    max-height: 245px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  /* ---------------------------------
+     SKILLS DEMONSTRATED
+     Subtle breathing room
+     --------------------------------- */
+  .skills-section {
+    padding: 1.35rem 1.15rem 1.2rem;
+  }
+
+  .skills-section h2,
+  .skills-section h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .skills-section .skill-badges {
+    margin-top: 0.5rem;
+  }
+
+}

@@ -2107,25 +2107,30 @@ section h2 {
 
 @media (max-width: 850px) {
 
-  /* Business Objective - compact + left aligned */
+  /* Business Objective - compact + true left alignment */
   .business-objective {
     align-items: flex-start;
-    padding: 0.6rem 1.35rem 0.65rem;
+    padding: 0.5rem 1.35rem 0.6rem;
     text-align: left;
   }
 
   .business-objective h2,
   .business-objective h3 {
-    margin-top: 0;
-    margin-bottom: 0.65rem;
-    text-align: left;
+    width: 100%;
+    align-self: flex-start;
+    margin: 0 0 0.55rem 0 !important;
+    padding: 0;
+    text-align: left !important;
   }
 
   .business-objective p {
+    width: 100%;
     margin: 0;
+    padding: 0;
     text-align: left;
     line-height: 1.5;
   }
+}
 
 
 .interactive-analysis .project-visual img {
@@ -2151,7 +2156,7 @@ section h2 {
   .visual-grid
   .project-visual:nth-child(2) img {
     width: 100%;
-    max-height: 215px;
+    max-height: 210px;
     object-fit: contain;
   }
 
@@ -2168,5 +2173,9 @@ section h2 {
     margin-bottom: 0.8rem;
     text-align: left;
   }
+
+.skills-section {
+  transform: translateY(-8px);
+}
 
 }

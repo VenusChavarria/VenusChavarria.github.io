@@ -2220,3 +2220,45 @@ section h2 {
     text-align: left;
   }
 }
+
+/* =========================================================
+   FINAL FEATURED PROJECTS ALIGNMENT
+   Keep this at the VERY END of the CSS
+========================================================= */
+
+/* Desktop */
+#projects > h2 {
+  max-width: 900px !important;
+  width: calc(100% - 40px) !important;
+  margin: 0 auto 16px !important;
+  padding-left: 30px !important;
+  box-sizing: border-box !important;
+  text-align: left !important;
+}
+
+/* Keep project cards on the same main axis */
+#projects .project-card {
+  max-width: 900px !important;
+  width: calc(100% - 40px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box !important;
+}
+
+
+/* Mobile */
+@media (max-width: 850px) {
+
+  #projects > h2 {
+    width: calc(100% - 48px) !important;
+    margin: 0 auto 18px !important;
+    padding-left: 22px !important;
+    text-align: left !important;
+  }
+
+  #projects .project-card {
+    width: calc(100% - 48px) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}

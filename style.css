@@ -166,7 +166,7 @@ section h2 {
 }
 
 #projects > h2 {
-  max-width: 900px;
+  max-width: 840px;
   width: calc(100% - 40px);
   margin: 0 auto 16px;
 }
@@ -230,10 +230,10 @@ section h2 {
     padding-bottom: 48px;
   }
 
-  #projects > h2 {
-    width: calc(100% - 48px);
-    margin: 0 auto 18px;
-  }
+#projects > h2 {
+  width: calc(100% - 92px);
+  margin: 0 auto 18px;
+}
 
   .project-card {
     width: calc(100% - 48px);

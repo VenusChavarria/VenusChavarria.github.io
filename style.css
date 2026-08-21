@@ -2201,15 +2201,22 @@ section h2 {
 }
 
 }
-/* FINAL HOME ALIGNMENT — Featured Projects */
+
+/* FINAL ALIGNMENT — FEATURED PROJECTS */
 
 #projects > h2 {
-  position: relative;
-  left: 30px;
+  max-width: 900px;
+  width: calc(100% - 40px);
+  margin: 0 auto 16px;
+  padding-left: 30px;
+  box-sizing: border-box;
 }
+
 @media (max-width: 850px) {
   #projects > h2 {
-    position: relative;
-    left: 44px;
+    width: calc(100% - 48px);
+    margin: 0 auto 18px;
+    padding-left: 22px;
+    text-align: left;
   }
 }
